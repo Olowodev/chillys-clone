@@ -1,7 +1,14 @@
 const Marquee = () => {
     return (
         <div>
-            Enter
+            <div>
+                <div>
+                    <p>A <span>Reusable</span> Way of Living.</p>
+                    <p>A <span>Reusable</span> Way of Living.</p>
+                    <p>A <span>Reusable</span> Way of Living.</p>
+                    <p>A <span>Reusable</span> Way of Living.</p>
+                </div>
+            </div>
         </div>
     );
 }
