@@ -1,11 +1,12 @@
 import {BsChevronDown} from 'react-icons/bs'
+import styles from './Footer.module.css'
 
 const Footer = () => {
     return (
-        <div>
-            <div>
-                <div>
-                    <div>
+        <div className={styles.footer}>
+            <div className={styles.footerCont}>
+                <div className={styles.upperFooter}>
+                    <div className={styles.upperLeft}>
                         <p>Sign up for Chilly's news, launches and special offers - straight to your inbox</p>
                         <div>
                             <input />
@@ -13,7 +14,7 @@ const Footer = () => {
 
                             </div>
                         </div>
-                        <div>
+                        <div className={styles.socials}>
                             <div>
                             <svg viewBox="0 0 18 18" xmlns="http://www.w3.org/2000/svg" ><path d="M9 1c4.418 0 8 3.604 8 8.049 0 4.017-2.925 7.347-6.75 7.951v-5.624h1.864l.355-2.327h-.008L12.47 9H10.25V7.54c0-.637.31-1.258 1.304-1.258h1.008v-2s-.915-.157-1.79-.157c-1.828 0-3.022 1.107-3.022 3.112V9H5.719v2.376H7.75V17C3.925 16.396 1 13.066 1 9.049 1 4.604 4.582 1 9 1z"></path></svg>
                             </div>
@@ -25,7 +26,7 @@ const Footer = () => {
                             </div>
                         </div>
                     </div>
-                    <div>
+                    <div className={styles.upperRight}>
                         <div>
                             <p>Help Centre</p>
                             <p>Careers</p>
@@ -42,8 +43,8 @@ const Footer = () => {
                         </div>
                     </div>
                 </div>
-                <div>
-                    <div>
+                <div className={styles.lowerFooter}>
+                    <div className={styles.lowerLeft}>
                         <div>
                             <p>UNITED KINGDOM</p>
                         <BsChevronDown />
@@ -51,7 +52,7 @@ const Footer = () => {
                         <p>PRIVACY</p>
                         <p>TERMS</p>
                     </div>
-                    <div>
+                    <div className={styles.lowerRight}>
                         <div>
                             <img src='/applepay.png' />
                         </div>

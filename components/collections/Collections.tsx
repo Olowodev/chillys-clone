@@ -1,3 +1,5 @@
+import styles from './Collections.module.css'
+
 const Collections = () => {
     return (
         <div>

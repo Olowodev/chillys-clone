@@ -1,5 +1,6 @@
 import {BsChevronDown, BsBag} from 'react-icons/bs'
 import {CiSearch} from 'react-icons/ci'
+import styles from './Navbar.module.css'
 
 const Navbar = () => {
     return (

@@ -1,3 +1,5 @@
+import styles from './Marquee.module.css'
+
 const Marquee = () => {
     return (
         <div>

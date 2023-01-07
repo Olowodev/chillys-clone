@@ -1,3 +1,5 @@
+import styles from './Slideshow.module.css'
+
 const Slideshow = () => {
     return (
         <div>
