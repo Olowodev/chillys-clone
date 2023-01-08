@@ -1,0 +1,15 @@
+.footerCont {
+    display: flex;
+    flex-direction: column;
+}
+
+.upperFooter {
+    display: flex;
+    justify-content: space-between;
+}
+
+.lowerFooter {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
