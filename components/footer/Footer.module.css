@@ -8,6 +8,20 @@
     justify-content: space-between;
 }
 
+.upperLeft {
+    display: flex;
+    flex-direction: column;
+}
+
+.upperLeft .socials {
+    display: flex;
+    align-items: center;
+}
+
+.upperRight {
+    display: flex;
+}
+
 .lowerFooter {
     display: flex;
     justify-content: space-between;
