@@ -1,0 +1,11 @@
+.banner {
+    background-image: linear-gradient(150deg, #e85d60, #216dfb);
+    color: white;
+}
+
+.bannerContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 9px 0;
+}
