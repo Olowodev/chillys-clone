@@ -1,5 +1,22 @@
+.navbar {
+    margin: 20px 40px 0;
+}
+
 .navbarCont {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    padding: 20px calc(5.5556vw - 40px);
+}
+
+.navLeft {
+    display: flex;
+    align-items: center;
+}
+
+.navLeftLink {
+    padding: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }

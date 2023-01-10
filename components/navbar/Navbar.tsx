@@ -7,15 +7,15 @@ const Navbar = () => {
         <div className={styles.navbar}>
             <div className={styles.navbarCont}>
                 <div className={styles.navLeft}>
-                    <div>
+                    <div className={styles.navLeftLink}>
                         <a>SHOP</a>
-                        <BsChevronDown />
+                        <BsChevronDown style={{padding: '3px'}} />
                     </div>
-                    <div>
+                    <div className={styles.navLeftLink}>
                         <a>DISCOVER</a>
-                        <BsChevronDown />
+                        <BsChevronDown style={{padding: '3px'}} />
                     </div>
-                    <a>CO-BRAND</a>
+                    <a className={styles.navLeftLink}>CO-BRAND</a>
                 </div>
                 <div className={styles.navCenter}>
                     <div>
