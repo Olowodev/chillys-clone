@@ -1,0 +1,35 @@
+.slide {
+    position: relative;
+}
+
+.slide img {
+    width: 100%;
+    height: auto;
+}
+
+.slideContent {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.slide1MainContent {
+    color: white;
+    text-align: center;
+    font-size: 130px;
+    line-height: 120px;
+    font-weight: 700;
+}
+
+/* .slideContent .slideButton {
+    position: sticky;
+    height: 100vh;
+    top: 0;
+    z-index: 10;
+} */

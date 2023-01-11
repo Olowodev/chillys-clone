@@ -1,5 +1,9 @@
 .navbar {
-    margin: 20px 40px 0;
+    padding: 20px 40px 0;
+    position: fixed;
+    width: 100%;
+    color: white;
+    z-index: 1;
 }
 
 .navbarCont {
@@ -19,4 +23,14 @@
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.navLeftLink a {
+    padding: 3px;
+}
+
+.navRight {
+    display: flex;
+    align-items: center;
+    gap: 25px;
 }

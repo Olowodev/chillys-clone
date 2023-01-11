@@ -26,10 +26,10 @@ const Navbar = () => {
                 <div className={styles.navRight}>
                     <a>REFER A FRIEND</a>
                     <div>
-                        <CiSearch />
+                        <CiSearch style={{fontSize: 28}} />
                     </div>
                     <div>
-                        <BsBag />
+                        <BsBag style={{fontSize: 28}} />
                     </div>
                 </div>
             </div>
