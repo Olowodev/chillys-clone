@@ -9,7 +9,7 @@ const Footer = () => {
                     <div className={styles.upperLeft}>
                         <p>Sign up for Chilly's news, launches and special offers - straight to your inbox</p>
                         <div>
-                            <input />
+                            <input className={styles.footerInput} />
                             <div>
 
                             </div>
