@@ -2,8 +2,8 @@ import styles from './Collections.module.css'
 
 const Collections = () => {
     return (
-        <div>
-            <div>
+        <div className={styles.collections}>
+            <div className={styles.collCont}>
                 <div>
                     <div>
                         <div>
